@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./header-condition.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="header-condition">
+      <header class="container6">
+        <div class="nested-container">
+          <div class="nested-container-child"></div>
+          <h1 class="zdcm5">ZDCM</h1>
+        </div>
+        <div class="sub-container">
+          <div class="frame-parent25">
+            <div class="do-you-want-to-add-header-base-container">
+              <div class="do-you-want5">
+                Do you want to add header based redirection?
+              </div>
+            </div>
+            <div class="toggle5" id="toggle">
+              <div class="knob5"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="header-condition-inner">
+        <div class="danger-button-wrapper-parent">
+          <div class="danger-button-wrapper">
+            <button class="button-danger15">
+              <img class="star-icon15" alt="" src="./public/star.svg" />
+
+              <div class="button15">Cancel</div>
+              <img class="star-icon15" alt="" src="./public/x.svg" />
+            </button>
+          </div>
+          <div class="button-danger-wrapper10">
+            <button class="button-danger16">
+              <img class="star-icon15" alt="" src="./public/star.svg" />
+
+              <div class="button16">Previous</div>
+              <img class="star-icon15" alt="" src="./public/x.svg" />
+            </button>
+          </div>
+          <div class="button-danger-wrapper11">
+            <button class="button-danger17">
+              <img class="star-icon15" alt="" src="./public/star.svg" />
+
+              <div class="button17">Next</div>
+              <img class="star-icon15" alt="" src="./public/x.svg" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var toggle = document.getElementById("toggle");
+      if (toggle) {
+        toggle.addEventListener("click", function (e) {
+          window.location.href = "./header-based.html";
+        });
+      }
+      </script>
+  </body>
+</html>

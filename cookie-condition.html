@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./cookie-condition.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="cookie-condition">
+      <header class="frame-parent22">
+        <div class="rectangle-parent1">
+          <div class="frame-child1"></div>
+          <h1 class="zdcm4">ZDCM</h1>
+        </div>
+        <div class="frame-wrapper17">
+          <div class="frame-parent23">
+            <div class="do-you-want-to-add-cookie-base-wrapper">
+              <div class="do-you-want4">
+                Do you want to add cookie based redirection?
+              </div>
+            </div>
+            <div class="toggle4" id="toggle">
+              <div class="knob4"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="cookie-condition-inner">
+        <div class="frame-parent24">
+          <div class="button-danger-wrapper7">
+            <button class="button-danger12">
+              <img class="star-icon12" alt="" src="./public/star.svg" />
+
+              <div class="button12">Cancel</div>
+              <img class="star-icon12" alt="" src="./public/x.svg" />
+            </button>
+          </div>
+          <div class="button-danger-wrapper8">
+            <button class="button-danger13">
+              <img class="star-icon12" alt="" src="./public/star.svg" />
+
+              <div class="button13">Previous</div>
+              <img class="star-icon12" alt="" src="./public/x.svg" />
+            </button>
+          </div>
+          <div class="button-danger-wrapper9">
+            <button class="button-danger14">
+              <img class="star-icon12" alt="" src="./public/star.svg" />
+
+              <div class="button14">Next</div>
+              <img class="star-icon12" alt="" src="./public/x.svg" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var toggle = document.getElementById("toggle");
+      if (toggle) {
+        toggle.addEventListener("click", function (e) {
+          window.location.href = "./cookie-based.html";
+        });
+      }
+      </script>
+  </body>
+</html>
